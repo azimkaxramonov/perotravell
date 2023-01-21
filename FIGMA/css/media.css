@@ -1,0 +1,48 @@
+@media (max-width: 1200px){}
+
+@media (max-width: 992px){
+    .tourbox{
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+    .tourbox{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .video{
+        width: 700px;
+height: 100%;
+      }
+      .promo h1{
+        font-size: 60px;
+      }
+      .promo{
+      height: 575px;
+      }
+      .nav{
+        display: none;
+        
+      }
+      .menu{
+        display: flex;
+      }
+.aboutbox{
+  height: 600px;
+}
+.about{
+  height: 850px;
+}
+    }
+
+
+@media (max-width: 576px){
+    .promo h1{
+margin-top:100px;
+font-size: 36px;
+    }
+    .video{
+      width: 550px;
+      height: 100%;
+    }
+}
